@@ -2,19 +2,18 @@
 
 import matplotlib
 matplotlib.use('TkAgg')
+
+import sys
+import numpy as np
+import numpy.polynomial.polynomial as poly
+import os
+import math
 from numpy import arange, sin, pi
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
-import sys
+from obspy.core import Trace, Stream, UTCDateTime
 from tkinter import *
-from tkinter import messagebox
 from matplotlib import pyplot as plt
-import numpy as np
-import numpy.polynomial.polynomial as poly
-from obspy.core import Trace, Stream
-from obspy.core import UTCDateTime
-import os
-import math
 
 print('Running PlotTD.py')
 
