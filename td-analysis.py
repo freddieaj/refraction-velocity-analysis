@@ -15,11 +15,6 @@ from obspy.core import Trace, Stream, UTCDateTime
 from tkinter import *
 from matplotlib import pyplot as plt
 
-print('Running PlotTD.py')
-
-#================================================================================================
-# This section defines the plotting function
-
 global pick_mode
 global line_mode
 global pick_1
