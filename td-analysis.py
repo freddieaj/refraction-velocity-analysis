@@ -1,10 +1,4 @@
 #!/usr/bin/env python
-#================================================================================================
-# Update history:
-# V2 switched to tkinter buttons
-# V3 Allows changing x and y limits
-# V4 allows compatability with PickingGI, adds smart opening
-# V5 allows automatic line picking using first order polynomial fitting
 
 import matplotlib
 matplotlib.use('TkAgg')
